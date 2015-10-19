@@ -1,0 +1,5 @@
+system diameter: 11
+reachable states: 11 (2^3.45943) out of 1.4615e+48 (2^160)
+
+-- specification  G delay_lyap_output >= lyap_output  is true
+

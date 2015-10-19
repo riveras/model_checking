@@ -1,0 +1,71 @@
+MODULE main 
+ VAR
+	constant_output : unsigned word[12];
+	product_output: unsigned word[12];		
+	delay_output: unsigned word[12];
+	lyap_output: unsigned word[12];
+	delay_lyap_output: unsigned word[12];
+	block_constant : b_constant;
+	block_product : b_product(constant_output,delay_output);
+	block_delay : b_delay(product_output);
+	block_lyap : b_lyap(delay_output);
+	block_delay_lyap : b_delay2(lyap_output);
+
+ ASSIGN
+	init(constant_output) := block_constant.outputm1;
+   	init(product_output) := block_product.outputm1;
+   	init(delay_output) := block_delay.outputm1;
+   	init(lyap_output) := block_lyap.outputm1;
+   	init(delay_lyap_output) := block_delay_lyap.outputm1;
+   	next(constant_output) := block_constant.outputm1;
+   	next(product_output) := block_product.outputm1;
+   	next(delay_output) := block_delay.outputm1;
+   	next(lyap_output) := block_lyap.outputm1;
+   	next(delay_lyap_output) := block_delay_lyap.outputm1;
+ 
+ LTLSPEC G delay_lyap_output >= lyap_output -- stable
+ LTLSPEC G delay_lyap_output < lyap_output  -- unstable
+
+MODULE b_constant
+ VAR
+ 	outputm1 : unsigned word[12];
+ DEFINE a := 0ud12_9; -- 0.9
+
+ ASSIGN 
+	init(outputm1) := a;
+	next(outputm1) := a;
+
+	
+MODULE b_product(in1,in2) -- I need 0.5 * number
+  VAR
+  	outputm1 : unsigned word[12];
+ 	
+  ASSIGN
+   	init(outputm1) := (in2*0ud12_10*in1)/0ud12_100;
+   	next(outputm1) := (in2*0ud12_10*in1)/0ud12_100;
+
+
+MODULE b_delay(in1)
+  VAR
+  	outputm1 : unsigned word[12];
+  DEFINE initval:= 0ud12_20;
+  ASSIGN
+  	init(outputm1) := initval;
+  	next(outputm1) := in1;
+  	
+MODULE b_delay2(in1)
+  VAR
+  	outputm1 : unsigned word[12];
+  DEFINE initval:= 0ud12_4010;
+  ASSIGN
+  	init(outputm1) := initval;
+  	next(outputm1) := in1;
+  	
+MODULE b_lyap(in1)
+  VAR
+  	outputm1 : unsigned word[12];
+  ASSIGN
+  	init(outputm1) := in1 * in1;
+  	next(outputm1) := in1 * in1;
+
+   	

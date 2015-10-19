@@ -1,0 +1,18 @@
+NONLINEAR
+
+SA
+Best ==> 0.001
+100 Acceptance Ratio=1 beta=-33.75,0.9075
+Running time of run 1: 5.2771 sec
+runtime =5.3963
+robustness =  1.0000e-03
+
+CE
+NA
+
+UR
+Best ==> 0.001
+UR_Taliro: Number of tests so far 100
+Running time of run 1: 5.5016 sec
+runtime =    5.6196
+robustness =  1.0000e-03

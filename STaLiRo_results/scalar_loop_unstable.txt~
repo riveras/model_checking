@@ -1,0 +1,28 @@
+LINEAR LOOP US → finding trace to always stable, falsif example found
+SA
+Initial robustness value ==> -Inf
+FALSIFIED BY INITIAL SAMPLE!
+Running time of run 1: 0.044697 sec
+runtime =    0.1666
+robustness = -Inf
+
+CE
+Best ==> -Inf
+CE_Taliro : Found falsifying input. RETURN.
+Running time of run 1: 0.052125 sec
+runtime =   0.1713
+robustness =  -Inf
+
+
+UR
+ UR_Taliro: FALSIFIED!
+  Running time of run 1: 0.039045 sec
+
+runtime =
+
+    0.1640
+
+
+robustness =
+
+  -Inf

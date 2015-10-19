@@ -1,0 +1,24 @@
+LINEAR LOOP S → finding trace to not (always stable)
+SA
+100 Acceptance Ratio=0.3 beta=-6.6667,0.61983
+  Running time of run 1: 5.176 sec
+runtime =
+    5.2990
+ans =
+   31.4590
+
+CE
+ CE_Taliro : 100 tests have been performed.
+  Running time of run 1: 4.8598 sec
+runtime =
+    4.9924
+ans =
+   52.2758
+
+UR
+ UR_Taliro: Number of tests so far 100
+  Running time of run 1: 5.4177 sec
+runtime =
+    5.5464
+ans =
+   27.6353

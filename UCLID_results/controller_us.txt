@@ -1,0 +1,4684 @@
+UCLID
+Copyright (C) 2001-2011 The UCLID Team
+Compiling model Matrix_controller...
+Compiling module B_constant_A...
+Compiling module B_constant_B...
+Compiling module B_constant_K...
+Compiling module B_constant_P...
+Compiling module B_product_Ax...
+Compiling module B_product_u...
+Compiling module B_product_Bu...
+Compiling module B_subtract...
+Compiling module B_delay...
+Compiling module B_lyap...
+Compiling module B_delay2...
+Compilation finished for UCLID model Matrix_controller.
+
+INITIAL STATE:
+
+Boolean State:
+[]
+
+Term State:
+[B_delay2.outputm1:=4000+(ZERO_)
+,B_delay.outputm1_a1:=10+(ZERO_)
+,B_delay.outputm1_a2:=10+(ZERO_)
+,]
+
+Func State:
+[]
+
+Pred State:
+[]
+
+Enum State:
+[]
+
+Enum Func State:
+[]
+
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,13>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 13
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,13>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,13>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.012
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.012
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.000
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.016
+Sys Time: 0.000
+GC Time: 0.000
+Simulating...
+... step 1 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,40>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 40
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,40>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,40>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.048
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.048
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.000
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.052
+Sys Time: 0.004
+GC Time: 0.000
+Simulating...
+... step 2 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,66>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 66
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,66>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,66>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.108
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.108
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.008
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.116
+Sys Time: 0.000
+GC Time: 0.008
+Simulating...
+... step 3 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,88>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 88
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,88>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,88>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.152
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.152
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.004
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.156
+Sys Time: 0.000
+GC Time: 0.004
+Simulating...
+... step 4 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,110>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 110
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,110>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,110>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.192
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.192
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.000
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.200
+Sys Time: 0.000
+GC Time: 0.000
+Simulating...
+... step 5 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,132>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 132
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,132>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,132>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.228
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.228
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.004
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.236
+Sys Time: 0.000
+GC Time: 0.004
+Simulating...
+... step 6 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,154>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 154
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,154>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,154>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.276
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.276
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.004
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.288
+Sys Time: 0.000
+GC Time: 0.008
+Simulating...
+... step 7 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,176>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 176
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,176>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,176>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.336
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.336
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.016
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.352
+Sys Time: 0.000
+GC Time: 0.016
+Simulating...
+... step 8 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,198>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 198
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,198>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,198>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.376
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.376
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.016
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.392
+Sys Time: 0.000
+GC Time: 0.016
+Simulating...
+... step 9 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,220>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 220
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,220>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,220>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.376
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.376
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.008
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.396
+Sys Time: 0.004
+GC Time: 0.008
+Simulating...
+... step 10 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,242>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 242
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,242>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,242>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.424
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.424
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.036
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.444
+Sys Time: 0.000
+GC Time: 0.036
+Simulating...
+... step 11 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,264>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 264
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,264>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,264>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.476
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.476
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.036
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.500
+Sys Time: 0.000
+GC Time: 0.036
+Simulating...
+... step 12 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,286>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 286
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,286>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,286>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.496
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.496
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.036
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.524
+Sys Time: 0.008
+GC Time: 0.040
+Simulating...
+... step 13 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,308>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 308
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,308>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,308>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.532
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.532
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.012
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.560
+Sys Time: 0.000
+GC Time: 0.012
+Simulating...
+... step 14 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,330>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 330
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,330>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,330>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.580
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.580
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.012
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.608
+Sys Time: 0.008
+GC Time: 0.020
+Simulating...
+... step 15 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,352>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 352
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,352>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,352>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.624
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.624
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.024
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.656
+Sys Time: 0.000
+GC Time: 0.024
+Simulating...
+... step 16 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,374>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 374
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,374>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,374>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.668
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.668
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.028
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.704
+Sys Time: 0.000
+GC Time: 0.028
+Simulating...
+... step 17 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,396>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 396
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,396>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,396>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.692
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.692
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.020
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.728
+Sys Time: 0.000
+GC Time: 0.020
+Simulating...
+... step 18 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,418>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 418
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,418>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,418>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.732
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.732
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.032
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.780
+Sys Time: 0.000
+GC Time: 0.032
+Simulating...
+... step 19 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,440>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 440
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,440>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,440>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.780
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.780
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.044
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.832
+Sys Time: 0.000
+GC Time: 0.044
+Simulating...
+... step 20 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,462>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 462
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,462>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,462>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.880
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.880
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.048
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 0.932
+Sys Time: 0.004
+GC Time: 0.048
+Simulating...
+... step 21 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,484>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 484
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,484>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,484>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.944
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.948
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.076
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.004
+Sys Time: 0.000
+GC Time: 0.080
+Simulating...
+... step 22 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,506>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 506
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,506>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,506>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.944
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 0.944
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.060
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.000
+Sys Time: 0.000
+GC Time: 0.064
+Simulating...
+... step 23 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,528>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 528
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,528>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,528>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 0.996
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.000
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.036
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.060
+Sys Time: 0.004
+GC Time: 0.036
+Simulating...
+... step 24 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,550>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 550
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,550>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,550>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.036
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.036
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.036
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.092
+Sys Time: 0.004
+GC Time: 0.036
+Simulating...
+... step 25 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,572>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 572
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,572>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,572>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.076
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.080
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.060
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.136
+Sys Time: 0.004
+GC Time: 0.060
+Simulating...
+... step 26 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,594>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 594
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,594>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,594>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.124
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.128
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.040
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.200
+Sys Time: 0.000
+GC Time: 0.040
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,594>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 594
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,594>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,594>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.124
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.132
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.052
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.220
+Sys Time: 0.004
+GC Time: 0.064
+Simulating...
+... step 27 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,616>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 616
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,616>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,616>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.164
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.168
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.080
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.256
+Sys Time: 0.000
+GC Time: 0.080
+Simulating...
+... step 28 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,638>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 638
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,638>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,638>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.204
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.212
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.060
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.304
+Sys Time: 0.000
+GC Time: 0.064
+Simulating...
+... step 29 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,660>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 660
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,660>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,660>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.248
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.248
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.056
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.340
+Sys Time: 0.000
+GC Time: 0.060
+Simulating...
+... step 30 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,682>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 682
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,682>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,682>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.300
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.300
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.056
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.396
+Sys Time: 0.004
+GC Time: 0.060
+Simulating...
+... step 31 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,704>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 704
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,704>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,704>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.332
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.332
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.088
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.420
+Sys Time: 0.012
+GC Time: 0.088
+Simulating...
+... step 32 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,726>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 726
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,726>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,726>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.416
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.416
+Encoding Sys Time: 0.020
+Encoding GC Time: 0.088
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.508
+Sys Time: 0.020
+GC Time: 0.096
+Simulating...
+... step 33 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,748>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 748
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,748>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,748>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.432
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.440
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.052
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.544
+Sys Time: 0.012
+GC Time: 0.052
+Simulating...
+... step 34 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,770>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 770
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,770>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,770>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.540
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.548
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.080
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.644
+Sys Time: 0.000
+GC Time: 0.084
+Simulating...
+... step 35 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,792>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 792
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,792>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,792>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.556
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.560
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.044
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.656
+Sys Time: 0.000
+GC Time: 0.048
+Simulating...
+... step 36 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,814>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 814
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,814>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,814>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.636
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.640
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.096
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.748
+Sys Time: 0.004
+GC Time: 0.096
+Simulating...
+... step 37 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,836>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 836
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,836>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,836>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.716
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.724
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.124
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.896
+Sys Time: 0.000
+GC Time: 0.136
+Simulating...
+... step 38 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,858>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 858
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,858>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,858>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.720
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.728
+Encoding Sys Time: 0.012
+Encoding GC Time: 0.096
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.888
+Sys Time: 0.016
+GC Time: 0.100
+Simulating...
+... step 39 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,880>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 880
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,880>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,880>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.944
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.948
+Encoding Sys Time: 0.012
+Encoding GC Time: 0.112
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.116
+Sys Time: 0.016
+GC Time: 0.112
+Simulating...
+... step 40 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,902>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 902
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,902>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,902>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.216
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.224
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.100
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.400
+Sys Time: 0.008
+GC Time: 0.108
+Simulating...
+... step 41 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,924>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 924
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,924>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,924>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.780
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.788
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.120
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 1.968
+Sys Time: 0.000
+GC Time: 0.120
+Simulating...
+... step 42 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,946>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 946
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,946>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,946>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.088
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.096
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.152
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.256
+Sys Time: 0.004
+GC Time: 0.164
+Simulating...
+... step 43 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,968>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 968
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,968>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,968>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.848
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.852
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.128
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.032
+Sys Time: 0.004
+GC Time: 0.132
+Simulating...
+... step 44 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,990>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 990
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,990>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,990>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.044
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.052
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.112
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.216
+Sys Time: 0.004
+GC Time: 0.112
+Simulating...
+... step 45 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1012>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1012
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1012>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1012>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.080
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.084
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.144
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.284
+Sys Time: 0.012
+GC Time: 0.160
+Simulating...
+... step 46 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1034>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1034
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1034>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1034>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.956
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.964
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.132
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.156
+Sys Time: 0.004
+GC Time: 0.136
+Simulating...
+... step 47 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1056>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1056
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1056>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1056>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.932
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.940
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.108
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.112
+Sys Time: 0.000
+GC Time: 0.116
+Simulating...
+... step 48 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1078>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1078
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1078>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1078>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 1.976
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 1.984
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.148
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.156
+Sys Time: 0.004
+GC Time: 0.156
+Simulating...
+... step 49 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1100>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1100
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1100>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1100>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.148
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.152
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.144
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.324
+Sys Time: 0.008
+GC Time: 0.152
+Simulating...
+... step 50 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1122>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1122
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1122>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1122>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.128
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.132
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.112
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.308
+Sys Time: 0.004
+GC Time: 0.128
+Simulating...
+... step 51 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1144>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1144
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1144>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1144>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.244
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.252
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.192
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.436
+Sys Time: 0.004
+GC Time: 0.196
+Simulating...
+... step 52 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1166>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1166
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1166>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1166>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.152
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.156
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.180
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.348
+Sys Time: 0.016
+GC Time: 0.196
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1166>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1166
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1166>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1166>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.168
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.176
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.132
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.424
+Sys Time: 0.008
+GC Time: 0.144
+Simulating...
+... step 53 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1188>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1188
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1188>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1188>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.256
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.268
+Encoding Sys Time: 0.012
+Encoding GC Time: 0.188
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.552
+Sys Time: 0.016
+GC Time: 0.196
+Simulating...
+... step 54 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1210>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1210
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1210>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1210>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.344
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.360
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.164
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.676
+Sys Time: 0.008
+GC Time: 0.176
+Simulating...
+... step 55 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1232>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1232
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1232>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1232>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.520
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.532
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.184
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.872
+Sys Time: 0.004
+GC Time: 0.200
+Simulating...
+... step 56 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1254>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1254
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1254>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1254>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.428
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.444
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.216
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.736
+Sys Time: 0.004
+GC Time: 0.220
+Simulating...
+... step 57 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1276>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1276
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1276>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1276>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.424
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.436
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.172
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.740
+Sys Time: 0.008
+GC Time: 0.184
+Simulating...
+... step 58 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1298>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1298
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1298>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1298>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.840
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.856
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.232
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.144
+Sys Time: 0.004
+GC Time: 0.232
+Simulating...
+... step 59 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1320>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1320
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1320>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1320>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.420
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.436
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.188
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.740
+Sys Time: 0.004
+GC Time: 0.192
+Simulating...
+... step 60 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1342>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1342
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1342>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1342>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.444
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.460
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.124
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.756
+Sys Time: 0.000
+GC Time: 0.136
+Simulating...
+... step 61 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1364>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1364
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1364>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1364>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.568
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.580
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.204
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 2.868
+Sys Time: 0.012
+GC Time: 0.208
+Simulating...
+... step 62 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1386>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1386
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1386>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1386>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.792
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.808
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.232
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.096
+Sys Time: 0.004
+GC Time: 0.240
+Simulating...
+... step 63 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1408>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1408
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1408>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1408>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.708
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.724
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.176
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.032
+Sys Time: 0.008
+GC Time: 0.184
+Simulating...
+... step 64 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1430>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1430
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1430>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1430>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.732
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.744
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.188
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.040
+Sys Time: 0.016
+GC Time: 0.196
+Simulating...
+... step 65 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1452>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1452
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1452>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1452>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.876
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.888
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.216
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.220
+Sys Time: 0.008
+GC Time: 0.216
+Simulating...
+... step 66 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1474>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1474
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1474>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1474>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.800
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.808
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.188
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.112
+Sys Time: 0.016
+GC Time: 0.200
+Simulating...
+... step 67 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1496>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1496
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1496>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1496>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 2.780
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 2.788
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.204
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.084
+Sys Time: 0.004
+GC Time: 0.208
+Simulating...
+... step 68 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1518>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1518
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1518>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1518>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.152
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.168
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.244
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.484
+Sys Time: 0.004
+GC Time: 0.256
+Simulating...
+... step 69 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1540>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1540
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1540>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1540>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.116
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.132
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.236
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.540
+Sys Time: 0.012
+GC Time: 0.248
+Simulating...
+... step 70 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1562>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1562
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1562>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1562>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.168
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.180
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.260
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.500
+Sys Time: 0.000
+GC Time: 0.268
+Simulating...
+... step 71 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1584>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1584
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1584>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1584>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.200
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.208
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.236
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.532
+Sys Time: 0.000
+GC Time: 0.244
+Simulating...
+... step 72 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1606>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1606
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1606>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1606>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.256
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.272
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.228
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.580
+Sys Time: 0.004
+GC Time: 0.240
+Simulating...
+... step 73 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1628>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1628
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1628>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1628>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.312
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.328
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.192
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.644
+Sys Time: 0.004
+GC Time: 0.204
+Simulating...
+... step 74 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1650>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1650
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1650>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1650>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.272
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.284
+Encoding Sys Time: 0.012
+Encoding GC Time: 0.204
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.596
+Sys Time: 0.012
+GC Time: 0.220
+Simulating...
+... step 75 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1672>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1672
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1672>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1672>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.536
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.556
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.248
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 3.992
+Sys Time: 0.020
+GC Time: 0.260
+Simulating...
+... step 76 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1694>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1694
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1694>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1694>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.432
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.460
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.228
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 4.028
+Sys Time: 0.004
+GC Time: 0.248
+Simulating...
+... step 77 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1716>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1716
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1716>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1716>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.600
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.624
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.284
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 4.180
+Sys Time: 0.004
+GC Time: 0.292
+Simulating...
+... step 78 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1738>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1738
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1738>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1738>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.604
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.632
+Encoding Sys Time: 0.004
+Encoding GC Time: 0.296
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 4.164
+Sys Time: 0.008
+GC Time: 0.312
+Simulating...
+... step 79 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1760>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1760
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1760>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1760>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 3.860
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 3.884
+Encoding Sys Time: 0.008
+Encoding GC Time: 0.336
+#### Formula is Invalid 
+
+
+ Decision Procedure Encoding Time
+Usr Time: 4.432
+Sys Time: 0.012
+GC Time: 0.348
+Simulating...
+... step 80 complete
+
+**********************************************
+     Decision Procedure 
+**********************************************
+
+**********************************************
+Using heuristic  1
+Ignoring Positive Equality Analysis....
+Using Ackermann's method to eliminate g-function symbols....
+**********************************************
+Stats : Original formula size :<|tnodes|,|Tnodes|> = <3,1782>
+Getting function, predicate symbols.....
+Getting the PCEUF from the formula.....
+Initializing function application classes...
+Initial number of fAppClasses is 1782
+Final number of fAppClasses is 1
+
+ the function symbols:[ZERO_]
+
+ the individual variables:[ZERO_]
+
+ the p function symbols:[]
+Eliminating  uninterpreted g-func/pred symbols Ackermann.....
+Eliminating  uninterpreted p-func symbols Bryant.....
+# of vars  = 1
+# of pvars = 0
+# of gvars = 1
+
+ the p-vars :[]
+
+ the g-vars:[ZERO_]
+Fraction of p-vars = 0.0
+Stats :  after function elimination  size :<|tnodes|,|Tnodes|> = <3,1782>
+Stats :  after predicate elimination  size :<|tnodes|,|Tnodes|> = <3,1782>
+# of ITE vars = 0
+The final variable classes :
+{[ZERO_], false, Cardinality = 1}
+Starting Eager Encoding for Bit-Vector Arithmetic...
+Generating propositional encoding...
+User Time for propositional encoding: 4.008
+
+
+ Overall Bit-Vector Encoding Time
+Encoding Usr Time: 4.036
+Encoding Sys Time: 0.000
+Encoding GC Time: 0.356
+
++++ No Counter-Examples Found : Formula trivially Valid +++
+
+
+
+ Decision Procedure Encoding Time
+Usr Time: 4.600
+Sys Time: 0.008
+GC Time: 0.392
+
+
+ Overall ML Execution Time
+Usr Time: 163.338
+Sys Time: 0.416
+GC Time: 10.409

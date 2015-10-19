@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<sspaceex xmlns="http://www-verimag.imag.fr/xml-namespaces/sspaceex" version="0.2" math="SpaceEx">
+  <component id="system">
+    <param name="x" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="loop" type="label" local="false" />
+    <location id="2" name="flow_loop" x="227.0" y="244.0">
+      <flow>x'==-0.5*x</flow>
+    </location>
+    <transition source="2" target="2">
+      <labelposition x="32.0" y="-25.0" />
+    </transition>
+  </component>
+</sspaceex>
+

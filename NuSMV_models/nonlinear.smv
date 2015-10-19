@@ -1,0 +1,114 @@
+MODULE main 
+ VAR -- The outputs
+	constant_output : unsigned word[8]; 	--1
+	product1_output : unsigned word[8];	-- x1 next
+	product2_output : unsigned word[8];	-- x2 next
+	product3_output : unsigned word[8];	-- x1 square
+	product4_output : unsigned word[8];	-- x2 square
+	delay1_output : unsigned word[8];	-- x1
+	delay2_output : unsigned word[8];	-- x2
+	sum_output : unsigned word[8];		--1 + x2 square
+	division_output: unsigned word[8];	-- 1/(1+x2 square)
+	lyap_output : unsigned word[8];		-- Lyap function
+	delay_lyap_output : unsigned word[8];	-- Lyap delay
+     -- The blocks 
+	block_constant : b_constant;
+	block_product1 : b_product(delay1_output,division_output);
+	block_product2 : b_product(delay2_output,division_output);
+	block_product3 : b_product(delay1_output,delay1_output);
+	block_product4 : b_product(delay2_output,delay2_output);
+	block_delay1 : b_delay(delay1_output);
+	block_delay2 : b_delay(delay2_output);
+	block_sum : b_sum(product4_output,constant_output);
+	block_division : b_division(constant_output,sum_output);
+	block_lyap : b_sum(product3_output,product4_output);
+	block_delay_lyap : b_delay2(lyap_output);
+
+ ASSIGN
+	init(constant_output) := block_constant.outputm1;
+   	init(product1_output) := block_product1.outputm1;
+   	init(product2_output) := block_product2.outputm1;
+   	init(product3_output) := block_product3.outputm1;
+   	init(product4_output) := block_product4.outputm1;
+   	init(delay1_output) := block_delay1.outputm1;
+   	init(delay2_output) := block_delay2.outputm1;
+   	init(sum_output) := block_sum.outputm1;
+   	init(division_output) := block_division.outputm1;
+   	init(lyap_output) := block_lyap.outputm1;
+   	init(delay_lyap_output) := block_delay_lyap.outputm1;
+   	
+	next(constant_output) := block_constant.outputm1;
+   	next(product1_output) := block_product1.outputm1;
+   	next(product2_output) := block_product2.outputm1;
+   	next(product3_output) := block_product3.outputm1;
+	next(product4_output) := block_product4.outputm1;
+   	next(delay1_output) := block_delay1.outputm1;
+   	next(delay2_output) := block_delay2.outputm1;
+   	next(sum_output) := block_sum.outputm1;
+   	next(division_output) := block_division.outputm1;
+   	next(lyap_output) := block_lyap.outputm1;
+   	next(delay_lyap_output) := block_delay_lyap.outputm1;
+   	
+  LTLSPEC G delay_lyap_output >= lyap_output -- stable
+
+
+MODULE b_constant
+ VAR
+ 	outputm1 : unsigned word[8];
+ DEFINE a := 0ud8_10; -- 1
+ ASSIGN 
+	init(outputm1) := a;
+	next(outputm1) := a;
+	
+
+MODULE b_product(in1,in2) 
+  VAR
+  	outputm1 : unsigned word[8];
+  ASSIGN
+   	init(outputm1) := (in1*0ud8_10*in2)/0ud8_100;
+  	next(outputm1) := (in1*0ud8_10*in2)/0ud8_100;
+
+
+MODULE b_delay(in1)
+  VAR
+  	outputm1 : unsigned word[8];
+  DEFINE initval_1:= 0ud8_10;
+  ASSIGN
+  	init(outputm1) := initval_1;
+  	next(outputm1) := in1;
+
+
+MODULE b_sum(in1,in2) 
+  VAR
+  	outputm1 : unsigned word[8];
+ 	
+  ASSIGN
+   	init(outputm1) := in1 + in2; 
+  	next(outputm1) := in1 + in2; 
+  	
+  	
+MODULE b_division(in1,in2) 
+  VAR
+  	outputm1 : unsigned word[8];
+ 	
+  ASSIGN
+   	init(outputm1) := case
+     			(in2 = 0ud8_0): 0ud8_255;
+      			(in2 != 0ud8_0): (in1)/(in2); 
+  			 esac;
+  	next(outputm1) := case
+     			(in2 = 0ud8_0): 0ud8_255;
+      			(in2 != 0ud8_0): (in1)/(in2); 
+  			 esac;
+
+
+MODULE b_delay2(in1)
+  VAR
+  	outputm1 : unsigned word[8];
+  DEFINE initval:= 0ud8_255;
+  ASSIGN
+  	init(outputm1) := initval;
+  	next(outputm1) := in1;
+  	
+
+   	

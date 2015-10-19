@@ -1,0 +1,18 @@
+CONTROLLER S
+
+SA
+Best ==> 0.001
+100 Acceptance Ratio=1 beta=-33.75,0.9075
+Running time of run 1: 5.1692 sec
+runtime =   5.2869
+robustness =  1.0000e-03
+
+CE
+NA
+
+UR
+Best ==> 0.001
+UR_Taliro: Number of tests so far 100
+Running time of run 1: 5.5525 sec
+runtime =    5.6704
+robustness =  1.0000e-03

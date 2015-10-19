@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<sspaceex xmlns="http://www-verimag.imag.fr/xml-namespaces/sspaceex" version="0.2" math="SpaceEx">
+  <component id="system">
+    <param name="x" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <param name="hop" type="label" local="false" />
+    <param name="y" type="real" local="false" d1="1" d2="1" dynamics="any" />
+    <location id="1" name="x_next" x="349.0" y="190.0" width="154.0" height="138.0">
+      <flow>x'==-0.5*x &amp; y'==-0.5*y</flow>
+    </location>
+    <transition source="1" target="1">
+      <label>hop</label>
+      <labelposition x="52.0" y="-34.0" />
+    </transition>
+  </component>
+</sspaceex>
+

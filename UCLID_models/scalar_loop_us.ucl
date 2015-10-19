@@ -1,0 +1,485 @@
+MODEL Simple_lyapunov
+ CONST
+
+MODULE B_constant
+ INPUT
+ VAR
+ 	outputm1 : BITVEC[16];
+ CONST
+ DEFINE 
+ 	outputm1 := 129; 
+ ASSIGN 
+
+	
+MODULE B_product
+  INPUT
+  	B_constant.outputm1: BITVEC[16];
+  	B_delay.outputm1: BITVEC[16];	
+  VAR
+  	outputm1 : BITVEC[16];	
+  CONST
+  DEFINE 
+  	outputm1 := (B_delay.outputm1 *_16 10 *_16 B_constant.outputm1) /_16 128;
+  ASSIGN
+
+
+MODULE B_delay
+  INPUT
+  	B_product.outputm1: BITVEC[16];
+  VAR
+  	outputm1 : BITVEC[16];
+	initval : BITVEC[16];
+  CONST 
+  DEFINE 
+  	initval := 20;
+  ASSIGN
+  	init[outputm1] := initval;
+  	next[outputm1] := B_product.outputm1;
+
+  	
+  	
+MODULE B_lyap
+  INPUT
+  	B_delay.outputm1 : BITVEC[16];
+  VAR
+  	outputm1 : BITVEC[16];
+  CONST
+  DEFINE
+  	outputm1 := (B_delay.outputm1 *_16 B_delay.outputm1);
+  ASSIGN
+
+
+   	
+MODULE B_delay2
+  INPUT
+  	B_lyap.outputm1: BITVEC[16];
+  VAR
+  	outputm1 : BITVEC[16];
+  	initval : BITVEC[16];
+  CONST
+  DEFINE 
+  	initval:= 4010;
+  ASSIGN
+  	init[outputm1] := initval;
+  	next[outputm1] := B_lyap.outputm1;
+
+
+
+CONTROL
+  EXTVAR 
+  STOREVAR 
+  	x1 : BITVEC[16];
+  	x : BITVEC[16];
+  	comparison : TRUTH;
+  VAR 
+  CONST 
+  DEFINE
+  EXEC
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;  	
+	decide(comparison);
+	simulate(1);
+  	x1 := B_lyap.outputm1;
+  	x := B_delay2.outputm1;
+  	comparison := x1 <= x;
+  	decide(comparison);
+  	simulate(1);
+
+
+
+   	
+   	
+
+
+   	
